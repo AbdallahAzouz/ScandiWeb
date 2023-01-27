@@ -1,0 +1,35 @@
+.add__product {
+  padding: 3rem;
+  .add__product__header {
+    display: flex;
+    justify-content: space-between;
+    // border-bottom: 2px solid var(--primary-color);
+    h2 {
+      font-weight: normal;
+    }
+    .btns {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+  .products__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product__form {
+    // padding: 1rem;
+    .sku,
+    .name,
+    .price,
+    .type {
+      padding: 0.5rem;
+      h5 {
+        color: black;
+      }
+    }
+    select {
+      margin: 1rem 0;
+      padding: 0.7rem;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.products {
+  padding: 3rem;
+  .list__header {
+    display: flex;
+    justify-content: space-between;
+    // border-bottom: 2px solid var(--primary-color);
+    h2 {
+      font-weight: normal;
+    }
+    .btns {
+      display: flex;
+      gap: 2rem;
+    }
+  }
+  .products__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

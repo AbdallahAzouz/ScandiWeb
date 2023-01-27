@@ -1,0 +1,24 @@
+.product__item {
+  border: 2px solid var(--primary-color);
+  cursor: pointer;
+  position: relative;
+  padding: 2rem 0;
+
+  input {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .product__img {
+    img {
+      width: 70% !important;
+      height: 70% !important;
+    }
+  }
+  .product__name {
+    color: var(--primary-color);
+  }
+}

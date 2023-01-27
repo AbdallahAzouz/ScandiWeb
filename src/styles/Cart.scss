@@ -1,0 +1,17 @@
+table {
+  margin-top: 2rem;
+  tbody {
+    tr {
+      td {
+        img {
+          width: 80px !important;
+          height: 80px !important;
+        }
+        i {
+          color: red;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
